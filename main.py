@@ -1,10 +1,10 @@
 import sys
 import time
 import threading
-from PySide2.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
-from PySide2.QtUiTools import QUiLoader
-from PySide2.QtCore import Qt, QTimer, QTime, Signal, QObject, QThread
-from pynput import mouse, keyboard
+from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
+from PySide6.QtUiTools import QUiLoader
+from PySide6.QtCore import Qt, QTimer, QTime, Signal, QObject, QThread
+# from pynput import mouse, keyboard
 
 
 # ================= 后台工作线程 =================
@@ -327,4 +327,4 @@ if __name__ == "__main__":
     # 将 closeEvent 绑定到主窗口
     window.ui.closeEvent = window.closeEvent
     window.ui.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
