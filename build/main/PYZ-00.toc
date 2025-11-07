@@ -1,4 +1,4 @@
-('C:\\Users\\fangx\\PycharmProjects\\Mouse-Clicker\\build\\main\\PYZ-00.pyz',
+('C:\\Users\\fangx\\Documents\\GitHub\\Mouse-Clicker\\build\\main\\PYZ-00.pyz',
  [('PySide2',
    'C:\\Users\\fangx\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\PySide2\\__init__.py',
    'PYMODULE'),

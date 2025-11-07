@@ -4,7 +4,11 @@ import threading
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtCore import Qt, QTimer, QTime, Signal, QObject, QThread
+<<<<<<< Updated upstream
 # from pynput import mouse, keyboard
+=======
+from pynput import mouse, keyboard
+>>>>>>> Stashed changes
 
 
 # ================= 后台工作线程 =================
@@ -183,7 +187,7 @@ class AutoClicker:
         self.ui.repeatCountBox.setRange(1, 99999)
         self.ui.repeatCountBox.setValue(10)
 
-        self.ui.intervalBox.setRange(1, 60000)
+        self.ui.intervalBox.setRange(1, 3600000)
         self.ui.intervalBox.setValue(50)
 
         self.ui.delayBox.setRange(0, 60)

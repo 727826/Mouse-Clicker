@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('ui/mc.ui', 'ui')],
     hiddenimports=['PySide2.QtXml'],
     hookspath=[],
     hooksconfig={},
