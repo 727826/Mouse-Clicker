@@ -4,11 +4,8 @@ import threading
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QMessageBox
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtCore import Qt, QTimer, QTime, Signal, QObject, QThread
-<<<<<<< Updated upstream
-# from pynput import mouse, keyboard
-=======
 from pynput import mouse, keyboard
->>>>>>> Stashed changes
+
 
 
 # ================= 后台工作线程 =================
